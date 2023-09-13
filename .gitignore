@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+build/
+dist/
+.cache/
+
+# Logs and runtime data
+logs/
+*.log
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

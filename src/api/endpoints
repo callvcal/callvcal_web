@@ -1,0 +1,105 @@
+
+const privacyPolicyUrl = domainUrl+'/privacy';
+const termsAndConditionsUrl = domainUrl+'/terms';
+const aboutUrl = domainUrl+'/about';
+
+const String url = 'https://$domain/api';
+const String domainUrl = 'https://$domain';
+const String domain = 'gcaldavtcal.callvcal.com';
+
+const categoryApi = '/catfcgvh';
+const testApi = '/test';
+const calChargeApi = '/serchrgepi';
+const driverApi = '/drifgh';
+const uploadFileApi = '/uffcghb';
+const deleteFileApi = '/dffghg';
+const productsApi = '/prosedfg';
+const paymentsApi = '/payfcgvhb';
+const ownersApi = '/owngvhb';
+const serviceApi = '/sergvhb';
+// const ordersApi = '/ordfgvh';
+const userActivityApi = '/uaasdfgh';
+const transactionDetailsApi = '/tragvbhde';
+// const getTokenApi = '/gtwasedrf';
+const adsApi = '/asda';
+const allDataApi = '/abcdsdg';
+const usersApi = '/usfgvhb';
+const serviceProviderApi = '/sprovider';
+
+const queryProductsApi = '/query-prosedfg';
+const queryPaymentsApi = '/query-payfcgvhb';
+const queryDriversApi = '/query-drifgh';
+const queryOwnersApi = '/query-owngvhb';
+// const queryUsersApi = '/query-usfgvhb';
+// const queryServicesApi = '/query-services';
+const queryOrdersApi = '/query-ordfgvh';
+const queryEarningApi = '/query-eardninvghb';
+// const queryAdsApi = '/query-asda';
+const queryWalletsApi = '/wsedrfghjdf';
+const queryBrandsApi = '/brands';
+const verifyPromoCodeApi = '/verify-promo-codes';
+
+
+
+
+
+///-------------------ORDERS-API-CUSTOMER----------------------
+
+const createOrderApi='/orders/customer/create';
+// const sendOrderApi='/orders/customer/send';
+const getBookingTokenApi='/orders/customer/token';
+const cancelOrderApi='/orders/customer/cancel';
+const approveOrderApi='/orders/customer/approve';
+const orderStatusApi='/orders/customer/status';
+
+
+
+
+
+///-------------------AUTH-API-USER----------------------
+
+const sendUserOtpApi='/auth/users/sendOTP';
+const resendUserOtpApi='/auth/users/resendOTP';
+const verifyUserOtpApi='/auth/users/verifyOTP';
+const loginWithPasswordApi='/auth/users/login';
+const checkUserWithEmailApi='/auth/users/platform-sign-in-check';
+
+
+///----------------------USER----------------------------
+
+const userUpdateAuthProfileApi='/users/init-auth';
+
+///--------------Driver--------------------------------
+const sendDriverOtpApi='/drivers/sentOtp';
+
+
+///-------------------SERVICE-PROVIDER-API----------------------
+
+
+const toggleServiceAvailable ="/service-providers/toggle/available";
+const toggleServiceNotAvailable ="/service-providers/toggle/not-available";
+
+
+///----------active-countries-api--------------
+const activeCountriesApi ="/active-countries";
+
+
+///-----------product-reviews
+///
+
+const reviewsApi ="/product/reviews";
+
+
+
+///----------------------------REFER EARN-APIS-----------------------
+
+const referSummaryApi ="/refer/summary";
+
+///----------------------------WALLET-APIS-----------------------
+
+const getAccountSummary ="/wallet/acc";
+
+const creditWallet ="/wallet/credit";
+const convertRewardWallet ="/wallet/convert";
+const walletTransactionDetailsApi ="/wallet/transaction/details";
+
